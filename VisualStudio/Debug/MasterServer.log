@@ -1,0 +1,532 @@
+﻿빌드 시작: 2016-04-04 오후 5:52:52
+     1>2 노드의 "C:\Users\KimChanYong\Documents\svn2\MasterServer-2.0.1f1\VisualStudio\MasterServer.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../RakNet/Sources /I../ /I../Common /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _CONSOLE /D UNITY_MASTERSERVER /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\MasterServer.cpp ..\RakNet\Sources\BitStream.cpp ..\RakNet\Sources\DS_HuffmanEncodingTree.cpp ..\RakNet\Sources\DataCompressor.cpp ..\RakNet\Sources\FileList.cpp ..\RakNet\Sources\LightweightDatabaseCommon.cpp ..\RakNet\Sources\LightweightDatabaseServer.cpp ..\RakNet\Sources\PacketLogger.cpp ..\RakNet\Sources\PluginInterface2.cpp ..\RakNet\Sources\RakNetStatistics.cpp ..\RakNet\Sources\RakNetworkFactory.cpp ..\RakNet\Sources\RakPeer.cpp ..\RakNet\Sources\RakString.cpp ..\RakNet\Sources\ReliabilityLayer.cpp ..\RakNet\Sources\StringCompressor.cpp ..\RakNet\Sources\StringTable.cpp ..\RakNet\Sources\SystemAddressList.cpp ..\RakNet\Sources\TableSerializer.cpp
+         MasterServer.cpp
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(53): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 'fopen' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1026): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1044): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1047): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1063): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1090): warning C4244: '인수' : 'const uint64_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1090): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1128): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+         코드를 생성하고 있습니다...
+         컴파일하고 있습니다...
+         TableSerializer.cpp
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(53): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 'fopen' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1026): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1044): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1047): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1063): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1090): warning C4244: '인수' : 'const uint64_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1090): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1128): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+         SystemAddressList.cpp
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(53): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 'fopen' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1026): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1044): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1047): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1063): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1090): warning C4244: '인수' : 'const uint64_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1090): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1128): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\systemaddresslist.cpp(86): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 'fopen' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\systemaddresslist.cpp(100): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 'fopen' 선언을 참조하십시오.
+         StringTable.cpp
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(53): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 'fopen' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1026): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1044): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1047): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1063): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1090): warning C4244: '인수' : 'const uint64_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1090): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1128): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\stringtable.cpp(66): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 'strcpy' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\stringtable.cpp(131): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : 'strncpy' 선언을 참조하십시오.
+         StringCompressor.cpp
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(53): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 'fopen' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1026): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1044): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1047): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1063): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1090): warning C4244: '인수' : 'const uint64_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1090): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1128): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\stringcompressor.cpp(379): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 'fopen' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\stringcompressor.cpp(417): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 'fopen' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\stringcompressor.cpp(522): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 'fopen' 선언을 참조하십시오.
+         ReliabilityLayer.cpp
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(53): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 'fopen' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1026): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1044): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1047): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1063): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1090): warning C4244: '인수' : 'const uint64_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1090): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1128): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+         RakString.cpp
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(53): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 'fopen' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1026): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1044): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1047): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1063): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1090): warning C4244: '인수' : 'const uint64_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1090): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1128): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\rakstring.cpp(68): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : '_vsnprintf' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\rakstring.cpp(77): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : '_vsnprintf' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\rakstring.cpp(154): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 'strcpy' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\rakstring.cpp(178): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 'strcat' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\rakstring.cpp(196): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 'strcat' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\rakstring.cpp(329): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 'strcpy' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\rakstring.cpp(330): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 'strcat' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\rakstring.cpp(359): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : '_vsnprintf' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\rakstring.cpp(870): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\rakstring.cpp(884): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' 선언을 참조하십시오.
+         RakPeer.cpp
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(53): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 'fopen' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1026): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1044): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1047): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1063): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1090): warning C4244: '인수' : 'const uint64_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1090): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1128): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\rakpeer.cpp(559): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1850) : 'inet_addr' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\rakpeer.cpp(1218): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 'fopen' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\rakpeer.cpp(1422): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 'fopen' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\rakpeer.cpp(1427): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\rakpeer.cpp(1420): warning C4101: 'buf' :참조되지 않은 지역 변수입니다.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\rakpeer.cpp(2230): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 'strcpy' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\rakpeer.cpp(3474): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 'strcpy' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\rakpeer.cpp(3476): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 'strcpy' 선언을 참조하십시오.
+         RakNetworkFactory.cpp
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(53): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 'fopen' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1026): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1044): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1047): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1063): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1090): warning C4244: '인수' : 'const uint64_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1090): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1128): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+         RakNetStatistics.cpp
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(53): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 'fopen' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1026): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1044): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1047): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1063): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1090): warning C4244: '인수' : 'const uint64_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1090): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1128): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\raknetstatistics.cpp(22): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\raknetstatistics.cpp(35): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\raknetstatistics.cpp(58): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\raknetstatistics.cpp(67): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\raknetstatistics.cpp(68): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 'strcat' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\raknetstatistics.cpp(77): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\raknetstatistics.cpp(78): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 'strcat' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\raknetstatistics.cpp(126): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\raknetstatistics.cpp(135): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\raknetstatistics.cpp(136): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 'strcat' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\raknetstatistics.cpp(145): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\raknetstatistics.cpp(146): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 'strcat' 선언을 참조하십시오.
+         PluginInterface2.cpp
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(53): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 'fopen' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1026): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1044): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1047): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1063): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1090): warning C4244: '인수' : 'const uint64_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1090): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1128): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+         PacketLogger.cpp
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(53): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 'fopen' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1026): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1044): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1047): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1063): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1090): warning C4244: '인수' : 'const uint64_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1090): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1128): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\packetlogger.cpp(55): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\packetlogger.cpp(90): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\packetlogger.cpp(138): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\packetlogger.cpp(159): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\packetlogger.cpp(223): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\packetlogger.cpp(390): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : 'strncpy' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\packetlogger.cpp(395): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : 'strncpy' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\packetlogger.cpp(410): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\time.inl(112) : 'localtime' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\packetlogger.cpp(413): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\packetlogger.cpp(414): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 'strcat' 선언을 참조하십시오.
+         LightweightDatabaseServer.cpp
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(53): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 'fopen' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1026): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1044): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1047): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1063): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1090): warning C4244: '인수' : 'const uint64_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1090): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1128): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\lightweightdatabaseserver.cpp(82): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : 'strncpy' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\lightweightdatabaseserver.cpp(87): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : 'strncpy' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\lightweightdatabaseserver.cpp(95): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : 'strncpy' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\lightweightdatabaseserver.cpp(103): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : 'strncpy' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\lightweightdatabaseserver.cpp(411): warning C4244: '=' : 'double'에서 'unsigned short'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\lightweightdatabaseserver.cpp(426): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 'strcpy' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\lightweightdatabaseserver.cpp(622): warning C4800: 'double' : 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\lightweightdatabaseserver.cpp(626): warning C4244: '=' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\lightweightdatabaseserver.cpp(645): warning C4244: '인수' : 'double'에서 'size_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\lightweightdatabaseserver.cpp(659): warning C4244: '인수' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\lightweightdatabaseserver.cpp(771): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 'strcpy' 선언을 참조하십시오.
+         LightweightDatabaseCommon.cpp
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(53): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 'fopen' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1026): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1044): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1047): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1063): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1090): warning C4244: '인수' : 'const uint64_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1090): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1128): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+         FileList.cpp
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(53): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 'fopen' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1026): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1044): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1047): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1063): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1090): warning C4244: '인수' : 'const uint64_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1090): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1128): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\filelist.cpp(81): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 'fopen' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\filelist.cpp(182): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 'strcpy' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\filelist.cpp(189): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 'strcpy' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\filelist.cpp(198): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 'strcat' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\filelist.cpp(208): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 'strcpy' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\filelist.cpp(210): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 'strcat' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\filelist.cpp(239): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 'strcpy' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\filelist.cpp(240): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 'strcat' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\filelist.cpp(249): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 'fopen' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\filelist.cpp(282): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 'fopen' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\filelist.cpp(301): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 'strcpy' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\filelist.cpp(302): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 'strcat' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\filelist.cpp(303): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 'strcat' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\filelist.cpp(484): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 'strcpy' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\filelist.cpp(486): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 'strcat' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\filelist.cpp(487): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 'fopen' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\filelist.cpp(543): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 'strcpy' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\filelist.cpp(545): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 'strcat' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\filelist.cpp(546): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 'fopen' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\filelist.cpp(632): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 'strcpy' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\filelist.cpp(634): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 'strcat' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\filelist.cpp(676): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 'strcpy' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\filelist.cpp(678): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 'strcat' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\filelist.cpp(683): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _unlink. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(278) : 'unlink' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\filelist.cpp(701): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 'strcat' 선언을 참조하십시오.
+         DataCompressor.cpp
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(53): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 'fopen' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1026): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1044): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1047): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1063): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1090): warning C4244: '인수' : 'const uint64_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1090): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1128): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+         DS_HuffmanEncodingTree.cpp
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(53): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 'fopen' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1026): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1044): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1047): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1063): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1090): warning C4244: '인수' : 'const uint64_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1090): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1128): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+         BitStream.cpp
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(53): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 'fopen' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1026): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1044): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1047): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1063): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1090): warning C4244: '인수' : 'const uint64_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1090): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.h(1128): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.cpp(753): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 'strcpy' 선언을 참조하십시오.
+     1>c:\users\kimchanyong\documents\svn2\masterserver-2.0.1f1\raknet\sources\bitstream.cpp(796): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' 선언을 참조하십시오.
+         코드를 생성하고 있습니다...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\MasterServer.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Debug\MasterServer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"Debug\MasterServer.lib" /MACHINE:X86 /SAFESEH Debug\Log.obj
+         Debug\Utility.obj
+         Debug\MasterServer.obj
+         Debug\AsynchronousFileIO.obj
+         Debug\BigInt.obj
+         Debug\BitStream.obj
+         Debug\BitStream_NoTemplate.obj
+         Debug\CCRakNetUDT.obj
+         Debug\CheckSum.obj
+         Debug\CommandParserInterface.obj
+         Debug\ConnectionGraph.obj
+         Debug\ConsoleServer.obj
+         Debug\DataBlockEncryptor.obj
+         Debug\DataCompressor.obj
+         Debug\DirectoryDeltaTransfer.obj
+         Debug\DS_BytePool.obj
+         Debug\DS_ByteQueue.obj
+         Debug\DS_HuffmanEncodingTree.obj
+         Debug\DS_Table.obj
+         Debug\EmailSender.obj
+         Debug\EncodeClassName.obj
+         Debug\ExtendedOverlappedPool.obj
+         Debug\FileList.obj
+         Debug\FileListTransfer.obj
+         Debug\FileOperations.obj
+         Debug\GetTime.obj
+         Debug\gettimeofday.obj
+         Debug\Itoa.obj
+         Debug\LightweightDatabaseCommon.obj
+         Debug\LightweightDatabaseServer.obj
+         Debug\LinuxStrings.obj
+         Debug\MessageFilter.obj
+         Debug\NetworkIDManager.obj
+         Debug\PacketFileLogger.obj
+         Debug\PacketLogger.obj
+         Debug\PluginInterface2.obj
+         Debug\RakMemoryOverride.obj
+         Debug\RakNetCommandParser.obj
+         Debug\RakNetSocket.obj
+         Debug\RakNetStatistics.obj
+         Debug\RakNetTransport.obj
+         Debug\RakNetTypes.obj
+         Debug\RakNetworkFactory.obj
+         Debug\RakPeer.obj
+         Debug\RakSleep.obj
+         Debug\RakString.obj
+         Debug\RakThread.obj
+         Debug\Rand.obj
+         Debug\ReliabilityLayer.obj
+         Debug\rijndael.obj
+         Debug\Router.obj
+         Debug\RPCMap.obj
+         Debug\RSACrypt.obj
+         Debug\SHA1.obj
+         Debug\SignaledEvent.obj
+         Debug\SimpleMutex.obj
+         Debug\SocketLayer.obj
+         Debug\StringCompressor.obj
+         Debug\StringTable.obj
+         Debug\SuperFastHash.obj
+         Debug\SystemAddressList.obj
+         Debug\TableSerializer.obj
+         Debug\TCPInterface.obj
+         Debug\ThreadsafePacketLogger.obj
+         Debug\WSAStartupSingleton.obj
+         Debug\_FindFirst.obj
+         MasterServer.vcxproj -> C:\Users\KimChanYong\Documents\svn2\MasterServer-2.0.1f1\VisualStudio\Debug\MasterServer.exe
+     1>"C:\Users\KimChanYong\Documents\svn2\MasterServer-2.0.1f1\VisualStudio\MasterServer.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:24.14
